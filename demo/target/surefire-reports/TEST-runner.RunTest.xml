@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="runner.RunTest" time="117.392" errors="4" skipped="7">
+<testsuite tests="11" failures="0" name="runner.RunTest" time="137.28" errors="4" skipped="7">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.20+8-post-Debian-1deb11u1"/>
@@ -61,7 +61,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Scenario: Verify the display of Gillette MACH3 Turbo under products list" time="11.209">
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Scenario: Verify the display of Gillette MACH3 Turbo under products list" time="14.527">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;eefcdafabef42856fcbecebddadfour-0&apos;, ip: &apos;10.104.0.26&apos;
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
@@ -167,23 +167,23 @@ Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.8
 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
 	... 10 more
 </error>
-    <system-err>Dec 07, 2023 6:05:30 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+    <system-err>Dec 07, 2023 6:21:23 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
 </system-err>
   </testcase>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Given I am on the Gillette website" time="11.21">
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Given I am on the Gillette website" time="14.527">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="When I hover on from the top navigation" time="11.21">
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="When I hover on from the top navigation" time="14.527">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="And I choose &quot;MACH3&quot; under &quot;By Brands&quot; from the drop-down" time="11.21">
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="And I choose &quot;MACH3&quot; under &quot;By Brands&quot; from the drop-down" time="14.527">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Then I should see &quot;Gillette MACH3 Turbo&quot; under the products list" time="11.21">
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Then I should see &quot;Gillette MACH3 Turbo&quot; under the products list" time="14.528">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Scenario: Verify the display of Gillette MACH3 Turbo under products list" time="11.212">
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Scenario: Verify the display of Gillette MACH3 Turbo under products list" time="14.53">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at glue.GilletteTests.tearDown(GilletteTests.java:110)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -231,7 +231,7 @@ INFO: Using OpenTelemetry for tracing
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" time="10.025">
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" time="10.021">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;eefcdafabef42856fcbecebddadfour-0&apos;, ip: &apos;10.104.0.26&apos;
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
@@ -338,16 +338,16 @@ Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.8
 	... 10 more
 </error>
   </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Given I am on the Gillette website" time="10.025">
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Given I am on the Gillette website" time="10.022">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="When I click on &quot;Styling&quot; under &quot;Learn&quot; in the footer" time="10.025">
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="When I click on &quot;Styling&quot; under &quot;Learn&quot; in the footer" time="10.023">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Then I should see &quot;Facial Hair Styles: The Anchor Beard&quot; under the list of articles under styling" time="10.025">
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Then I should see &quot;Facial Hair Styles: The Anchor Beard&quot; under the list of articles under styling" time="10.023">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" time="10.031">
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" time="10.025">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at glue.GilletteTests.tearDown(GilletteTests.java:110)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
